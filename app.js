@@ -1,5 +1,5 @@
 async function desafio2() {
-    const importFigures = require('./dhCollectibles/collectibles')
+    const importFigures = require('./DhCollectibles/collectibles')
 
     hotToys = await importFigures("Hot Toys")
     bandai = await importFigures("Bandai")
